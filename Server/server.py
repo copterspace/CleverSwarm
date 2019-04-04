@@ -16,7 +16,7 @@ import configparser
 random.seed()
 
 logging.basicConfig(  # TODO all prints as logs
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s [%(name)-7.7s] [%(threadName)-19.19s] [%(levelname)-7.7s]  %(message)s",
     handlers=[
         logging.FileHandler("server_logs.log"),
